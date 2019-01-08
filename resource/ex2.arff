@@ -1,0 +1,167 @@
+@relation ex2
+
+@attribute 'Check' {Unchecked}
+@attribute 'Request ID' {XE180907Q033915,XE180907Q035228,XE180906Q086850,XE180906Q086016,XE180906Q087101,XE180906Q038367,XE180906Q086360,XE180906Q086363,XE180906Q033915,XE180906Q035228,XE180906Q038344,XE180906Q086367,XE180905Q086850,XE180905S0087206,XE180905Q086016,XE180905Q087101,XE180905Q038367,XE180905Q086360,XE180905Q086363,XE180905S0087205,XE180905S0087204,XE180905Q033915,XE180905Q035228,XE180905Q034316,XE180905Q086367,XE180905Q038344,XE180904Q086850,XE180904Q086016,XE180904Q087101,XE180904Q038367,XE180904Q086360,XE180904Q086363,XE180904Q033915,XE180904Q035228,XE180904Q086367,XE180904Q038344,XE180903Q086850,XE180903Q086016,XE180903Q087101,XE180903Q038367,XE180903Q086360,XE180903Q086363,XE180903Q033915,XE180903Q035228,XE180903Q086367,XE180903Q038344,XE180902Q086850,XE180902Q086016,XE180902Q087101,XE180902Q038367,XE180902Q086360,XE180902Q038345,XE180902Q086363,XE180902Q038367Q2,XE180901Q087101,XE180901Q035228,XE180901Q038344,XE180831Q086850,XE180831Q087101,XE180831Q033915,XE180831Q035228,XE180831Q086367,XE180831Q038344,XE180830Q086850,XE180830Q086016,XE180830Q087101,XE180830Q086363,XE180830Q038367,XE180830Q086360,XE180830Q033915,XE180830Q035228,XE180830Q086367,XE180830Q038344,XE180829Q086850,XE180829Q086016,XE180829Q087101,XE180829Q086363,XE180829Q038367,XE180829Q086360,XE180829Q033915,XE180829Q035228,XE180829Q034316,XE180829Q086367,XE180829Q038344,XE180828Q086850,XE180828Q086016,XE180828Q087101,XE180828Q086363,XE180828Q038367,XE180828Q086360,XE180828Q033915,XE180828Q035228,XE180828Q086367,XE180828Q038344,XE180827Q086850,XE180827Q086016,XE180827Q087101,XE180827Q086363,XE180827Q038367,XE180827Q086360,XE180827Q033915,XE180827Q035228,XE180827Q086367,XE180827Q038344,XE180826Q086850,XE180826Q086016,XE180826Q087101,XE180826Q038345,XE180826Q086363,XE180826Q038367,XE180826Q086360,XE180825Q087101,XE180825Q035228,XE180825Q038344,XE180824Q086850,XE180824Q087101,XE180824Q033915,XE180824Q035228,XE180824Q038344,XE180824Q086367,XE180823Q086850,XE180823Q086016,XE180823Q087101,XE180823Q086363,XE180823Q038367,XE180823Q086360,XE180823Q033915,XE180823Q035228,XE180823Q038344,XE180823Q086367,XE180822Q086850,XE180822Q086016,XE180822Q087101,XE180822Q086363,XE180822Q038367,XE180822Q086360,XE180822Q033915,XE180822Q035228,XE180822Q034316,XE180822Q038344,XE180822Q086367,XE180821Q086850,XE180821Q086016,XE180821Q087101,XE180821Q086363,XE180821Q038367,XE180821Q086360,XE180821Q033915,XE180821Q035228}
+@attribute 'Process Type' {'DQ Email Engage',Project,'Walk Up',Communicator,'DQ Email Outlook'}
+@attribute 'Request Type' {'New Security Setup','Custody Request for Information','GPU Corporate Action Amendment','Security Update','New Registration','Custody Pricing','Custody Broker Code Setup','Issuer Update'}
+@attribute 'Status' {Unassigned,Assigned}
+@attribute 'Sub Status' {New,Pending,Updated,'PreCheck Required'}
+@attribute 'Priority RAG Status' {null}
+@attribute 'Requestor' {WC67823,Parent035228,Parent086850,Parent086016,Parent087101,Parent038367,Parent,Parent086363,Parent038344,Parent086367,CG81319,Parent038345}
+@attribute 'Subject' {AB-ETA,'Custody parent test01 CG',test,'Is Convertible Bond IPO DATA REFRESH 6AM','Parent with Bond type','Parent testing 0817','Parent testing ','RE: abby test on sit','Parent CG','Parent testing 0816'}
+@attribute 'Submitted Time' {'09/07/2018 05:25:00','09/07/2018 05:00:00','09/07/2018 00:10:00','09/06/2018 16:00:00','09/06/2018 15:00:00','09/06/2018 13:00:00','09/06/2018 05:25:00','09/06/2018 05:00:00','09/06/2018 01:00:00','09/06/2018 00:10:00','09/05/2018 22:29:04','09/05/2018 16:00:00','09/05/2018 15:00:00','09/05/2018 13:00:00','09/05/2018 09:36:57','09/05/2018 09:23:59','09/05/2018 05:25:00','09/05/2018 05:00:00','09/05/2018 04:00:00','09/05/2018 01:00:00','09/05/2018 00:10:00','09/04/2018 16:00:00','09/04/2018 15:00:00','09/04/2018 13:00:00','09/04/2018 05:25:00','09/04/2018 05:00:00','09/04/2018 01:00:00','09/04/2018 00:10:00','09/03/2018 16:00:00','09/03/2018 15:00:00','09/03/2018 13:00:00','09/03/2018 05:25:00','09/03/2018 05:00:00','09/03/2018 01:00:00','09/03/2018 00:10:00','09/02/2018 16:00:00','09/02/2018 15:00:00','09/02/2018 13:00:00','09/01/2018 15:00:00','09/01/2018 05:00:00','09/01/2018 01:00:00','09/01/2018 00:10:00','08/31/2018 15:00:00','08/31/2018 05:25:00','08/31/2018 05:00:00','08/31/2018 01:00:00','08/31/2018 00:10:00','08/30/2018 16:00:00','08/30/2018 15:00:00','08/30/2018 13:00:00','08/30/2018 05:25:00','08/30/2018 05:00:00','08/30/2018 01:00:00','08/30/2018 00:10:00','08/29/2018 16:00:00','08/29/2018 15:00:00','08/29/2018 13:00:00','08/29/2018 05:25:00','08/29/2018 05:00:00','08/29/2018 04:00:00','08/29/2018 01:00:00','08/29/2018 00:10:00','08/28/2018 16:00:00','08/28/2018 15:00:00','08/28/2018 13:00:00','08/28/2018 05:25:00','08/28/2018 05:00:00','08/28/2018 01:00:00','08/28/2018 00:10:00','08/27/2018 16:00:00','08/27/2018 15:00:00','08/27/2018 13:00:00','08/27/2018 05:25:00','08/27/2018 05:00:00','08/27/2018 01:00:00','08/27/2018 00:10:00','08/26/2018 16:00:00','08/26/2018 15:00:00','08/26/2018 13:00:00','08/25/2018 15:00:00','08/25/2018 05:00:00','08/25/2018 01:00:00','08/25/2018 00:10:00','08/24/2018 15:00:00','08/24/2018 05:25:00','08/24/2018 05:00:00','08/24/2018 01:00:00','08/24/2018 00:10:00','08/23/2018 16:00:00','08/23/2018 15:00:00','08/23/2018 13:00:00','08/23/2018 05:25:00','08/23/2018 05:00:00','08/23/2018 01:00:00','08/23/2018 00:10:00','08/22/2018 16:00:00','08/22/2018 15:00:00','08/22/2018 13:00:00','08/22/2018 05:25:00','08/22/2018 05:00:00','08/22/2018 04:00:00','08/22/2018 01:00:00','08/22/2018 00:10:00','08/21/2018 16:00:00','08/21/2018 15:00:00','08/21/2018 13:00:00','08/21/2018 05:25:00','08/21/2018 05:00:00'}
+@attribute 'SLA RAG Status' {null}
+@attribute 'Approver SOEID' {null,WC67823,HL79200,AAI1553,CG81319,TY87864}
+@attribute 'ETA' {null,'09/07/2018 02:00:00','09/06/2018 13:40:00','09/06/2018 01:40:00','09/05/2018 23:29:00','09/06/2018 02:00:00','09/05/2018 13:40:00','09/05/2018 19:30:00','09/05/2018 05:00:00','09/05/2018 01:40:00','09/05/2018 02:00:00','09/04/2018 13:40:00','09/04/2018 01:40:00','09/04/2018 02:00:00','09/03/2018 13:40:00','09/03/2018 01:40:00','09/03/2018 02:00:00','09/02/2018 13:40:00','08/31/2018 01:40:00','08/31/2018 02:00:00','08/30/2018 13:40:00','08/30/2018 01:40:00','08/30/2018 02:00:00','08/29/2018 13:40:00','08/29/2018 05:00:00','08/29/2018 01:40:00','08/29/2018 02:00:00','08/28/2018 13:40:00','08/28/2018 01:40:00','08/28/2018 02:00:00','08/27/2018 13:40:00','08/27/2018 01:40:00','08/27/2018 02:00:00','08/26/2018 13:40:00','08/24/2018 01:40:00','08/24/2018 02:00:00','08/23/2018 13:40:00','08/23/2018 01:40:00','08/23/2018 02:00:00','08/22/2018 13:40:00','08/22/2018 05:00:00','08/22/2018 01:40:00','08/22/2018 02:00:00','08/21/2018 13:40:00'}
+@attribute 'Behavior' {DoubleClick,MoveNext}
+
+@data
+Unchecked,XE180907Q033915,'DQ Email Engage','New Security Setup',Unassigned,New,null,WC67823,AB-ETA,'09/07/2018 05:25:00',null,null,null,DoubleClick
+Unchecked,XE180907Q035228,Project,'Custody Request for Information',Unassigned,New,null,Parent035228,'Custody parent test01 CG','09/07/2018 05:00:00',null,null,null,MoveNext
+Unchecked,XE180906Q086850,'Walk Up','GPU Corporate Action Amendment',Unassigned,New,null,Parent086850,test,'09/07/2018 00:10:00',null,null,null,MoveNext
+Unchecked,XE180906Q086016,'DQ Email Engage','Security Update',Unassigned,New,null,Parent086016,'Is Convertible Bond IPO DATA REFRESH 6AM','09/06/2018 16:00:00',null,null,'09/07/2018 02:00:00',MoveNext
+Unchecked,XE180906Q087101,Communicator,'New Registration',Unassigned,New,null,Parent087101,'Parent with Bond type','09/06/2018 15:00:00',null,null,null,MoveNext
+Unchecked,XE180906Q038367,'DQ Email Outlook','New Security Setup',Unassigned,New,null,Parent038367,'Parent testing 0817','09/06/2018 13:00:00',null,null,'09/06/2018 13:40:00',DoubleClick
+Unchecked,XE180906Q086360,'DQ Email Outlook','Custody Pricing',Unassigned,New,null,Parent,'Parent testing 0817','09/06/2018 13:00:00',null,null,'09/06/2018 13:40:00',MoveNext
+Unchecked,XE180906Q086363,'DQ Email Outlook','Custody Broker Code Setup',Unassigned,New,null,Parent086363,'Parent testing 0817','09/06/2018 13:00:00',null,null,'09/06/2018 13:40:00',MoveNext
+Unchecked,XE180906Q033915,'DQ Email Engage','New Security Setup',Unassigned,New,null,WC67823,AB-ETA,'09/06/2018 05:25:00',null,null,null,DoubleClick
+Unchecked,XE180906Q035228,Project,'Custody Request for Information',Unassigned,New,null,Parent035228,'Custody parent test01 CG','09/06/2018 05:00:00',null,null,null,MoveNext
+Unchecked,XE180906Q038344,'DQ Email Engage','Security Update',Unassigned,New,null,Parent038344,'Parent testing ','09/06/2018 01:00:00',null,null,null,MoveNext
+Unchecked,XE180906Q086367,'DQ Email Outlook','Issuer Update',Unassigned,New,null,Parent086367,'Parent testing 0817','09/06/2018 01:00:00',null,null,'09/06/2018 01:40:00',MoveNext
+Unchecked,XE180905Q086850,'Walk Up','GPU Corporate Action Amendment',Assigned,Pending,null,Parent086850,test,'09/06/2018 00:10:00',null,WC67823,null,MoveNext
+Unchecked,XE180905S0087206,'DQ Email Engage','New Security Setup',Unassigned,New,null,WC67823,'RE: abby test on sit','09/05/2018 22:29:04',null,null,'09/05/2018 23:29:00',DoubleClick
+Unchecked,XE180905Q086016,'DQ Email Engage','Security Update',Unassigned,New,null,Parent086016,'Is Convertible Bond IPO DATA REFRESH 6AM','09/05/2018 16:00:00',null,null,'09/06/2018 02:00:00',MoveNext
+Unchecked,XE180905Q087101,Communicator,'New Registration',Unassigned,New,null,Parent087101,'Parent with Bond type','09/05/2018 15:00:00',null,null,null,MoveNext
+Unchecked,XE180905Q038367,'DQ Email Outlook','New Security Setup',Unassigned,New,null,Parent038367,'Parent testing 0817','09/05/2018 13:00:00',null,null,'09/05/2018 13:40:00',DoubleClick
+Unchecked,XE180905Q086360,'DQ Email Outlook','Custody Pricing',Unassigned,New,null,Parent,'Parent testing 0817','09/05/2018 13:00:00',null,null,'09/05/2018 13:40:00',MoveNext
+Unchecked,XE180905Q086363,'DQ Email Outlook','Custody Broker Code Setup',Unassigned,New,null,Parent086363,'Parent testing 0817','09/05/2018 13:00:00',null,null,'09/05/2018 13:40:00',MoveNext
+Unchecked,XE180905S0087205,'DQ Email Engage','New Security Setup',Unassigned,New,null,WC67823,'RE: abby test on sit','09/05/2018 09:36:57',null,null,'09/05/2018 19:30:00',DoubleClick
+Unchecked,XE180905S0087204,'DQ Email Engage','New Security Setup',Unassigned,New,null,WC67823,'RE: abby test on sit','09/05/2018 09:23:59',null,null,'09/05/2018 19:30:00',DoubleClick
+Unchecked,XE180905Q033915,'DQ Email Engage','New Security Setup',Unassigned,New,null,WC67823,AB-ETA,'09/05/2018 05:25:00',null,null,null,DoubleClick
+Unchecked,XE180905Q035228,Project,'Custody Request for Information',Unassigned,New,null,Parent035228,'Custody parent test01 CG','09/05/2018 05:00:00',null,null,null,MoveNext
+Unchecked,XE180905Q034316,'DQ Email Engage','Security Update',Unassigned,New,null,CG81319,'Parent CG','09/05/2018 04:00:00',null,null,'09/05/2018 05:00:00',MoveNext
+Unchecked,XE180905Q086367,'DQ Email Outlook','Issuer Update',Unassigned,New,null,Parent086367,'Parent testing 0817','09/05/2018 01:00:00',null,null,'09/05/2018 01:40:00',MoveNext
+Unchecked,XE180905Q038344,'DQ Email Engage','Security Update',Assigned,Pending,null,Parent038344,'Parent testing ','09/05/2018 01:00:00',null,HL79200,null,MoveNext
+Unchecked,XE180904Q086850,'Walk Up','GPU Corporate Action Amendment',Unassigned,New,null,Parent086850,test,'09/05/2018 00:10:00',null,null,null,MoveNext
+Unchecked,XE180904Q086016,'DQ Email Engage','Security Update',Assigned,Pending,null,Parent086016,'Is Convertible Bond IPO DATA REFRESH 6AM','09/04/2018 16:00:00',null,AAI1553,'09/05/2018 02:00:00',MoveNext
+Unchecked,XE180904Q087101,Communicator,'New Registration',Unassigned,New,null,Parent087101,'Parent with Bond type','09/04/2018 15:00:00',null,null,null,MoveNext
+Unchecked,XE180904Q038367,'DQ Email Outlook','New Security Setup',Unassigned,New,null,Parent038367,'Parent testing 0817','09/04/2018 13:00:00',null,null,'09/04/2018 13:40:00',DoubleClick
+Unchecked,XE180904Q086360,'DQ Email Outlook','Custody Pricing',Unassigned,New,null,Parent,'Parent testing 0817','09/04/2018 13:00:00',null,null,'09/04/2018 13:40:00',MoveNext
+Unchecked,XE180904Q086363,'DQ Email Outlook','Custody Broker Code Setup',Unassigned,New,null,Parent086363,'Parent testing 0817','09/04/2018 13:00:00',null,null,'09/04/2018 13:40:00',MoveNext
+Unchecked,XE180904Q033915,'DQ Email Engage','New Security Setup',Unassigned,Updated,null,WC67823,AB-ETA,'09/04/2018 05:25:00',null,null,null,DoubleClick
+Unchecked,XE180904Q035228,Project,'Custody Request for Information',Unassigned,New,null,Parent035228,'Custody parent test01 CG','09/04/2018 05:00:00',null,null,null,MoveNext
+Unchecked,XE180904Q086367,'DQ Email Outlook','Issuer Update',Unassigned,New,null,Parent086367,'Parent testing 0817','09/04/2018 01:00:00',null,null,'09/04/2018 01:40:00',MoveNext
+Unchecked,XE180904Q038344,'DQ Email Engage','Security Update',Unassigned,New,null,Parent038344,'Parent testing ','09/04/2018 01:00:00',null,null,null,MoveNext
+Unchecked,XE180903Q086850,'Walk Up','GPU Corporate Action Amendment',Unassigned,New,null,Parent086850,test,'09/04/2018 00:10:00',null,null,null,MoveNext
+Unchecked,XE180903Q086016,'DQ Email Engage','Security Update',Assigned,Pending,null,Parent086016,'Is Convertible Bond IPO DATA REFRESH 6AM','09/03/2018 16:00:00',null,AAI1553,'09/04/2018 02:00:00',MoveNext
+Unchecked,XE180903Q087101,Communicator,'New Registration',Unassigned,New,null,Parent087101,'Parent with Bond type','09/03/2018 15:00:00',null,null,null,MoveNext
+Unchecked,XE180903Q038367,'DQ Email Outlook','New Security Setup',Unassigned,New,null,Parent038367,'Parent testing 0817','09/03/2018 13:00:00',null,null,'09/03/2018 13:40:00',DoubleClick
+Unchecked,XE180903Q086360,'DQ Email Outlook','Custody Pricing',Unassigned,New,null,Parent,'Parent testing 0817','09/03/2018 13:00:00',null,null,'09/03/2018 13:40:00',MoveNext
+Unchecked,XE180903Q086363,'DQ Email Outlook','Custody Broker Code Setup',Unassigned,New,null,Parent086363,'Parent testing 0817','09/03/2018 13:00:00',null,null,'09/03/2018 13:40:00',MoveNext
+Unchecked,XE180903Q033915,'DQ Email Engage','New Security Setup',Unassigned,New,null,WC67823,AB-ETA,'09/03/2018 05:25:00',null,null,null,DoubleClick
+Unchecked,XE180903Q035228,Project,'Custody Request for Information',Unassigned,New,null,Parent035228,'Custody parent test01 CG','09/03/2018 05:00:00',null,null,null,MoveNext
+Unchecked,XE180903Q086367,'DQ Email Outlook','Issuer Update',Unassigned,New,null,Parent086367,'Parent testing 0817','09/03/2018 01:00:00',null,null,'09/03/2018 01:40:00',MoveNext
+Unchecked,XE180903Q038344,'DQ Email Engage','Security Update',Unassigned,New,null,Parent038344,'Parent testing ','09/03/2018 01:00:00',null,null,null,MoveNext
+Unchecked,XE180902Q086850,'Walk Up','GPU Corporate Action Amendment',Unassigned,New,null,Parent086850,test,'09/03/2018 00:10:00',null,null,null,MoveNext
+Unchecked,XE180902Q086016,'DQ Email Engage','Security Update',Unassigned,New,null,Parent086016,'Is Convertible Bond IPO DATA REFRESH 6AM','09/02/2018 16:00:00',null,null,'09/03/2018 02:00:00',MoveNext
+Unchecked,XE180902Q087101,Communicator,'New Registration',Unassigned,New,null,Parent087101,'Parent with Bond type','09/02/2018 15:00:00',null,null,null,MoveNext
+Unchecked,XE180902Q038367,'DQ Email Outlook','New Security Setup',Unassigned,New,null,Parent038367,'Parent testing 0817','09/02/2018 13:00:00',null,null,'09/02/2018 13:40:00',DoubleClick
+Unchecked,XE180902Q086360,'DQ Email Outlook','Custody Pricing',Unassigned,New,null,Parent,'Parent testing 0817','09/02/2018 13:00:00',null,null,'09/02/2018 13:40:00',MoveNext
+Unchecked,XE180902Q038345,Communicator,'Issuer Update',Unassigned,New,null,Parent038345,'Parent testing 0816','09/02/2018 13:00:00',null,null,null,MoveNext
+Unchecked,XE180902Q086363,'DQ Email Outlook','Custody Broker Code Setup',Unassigned,New,null,Parent086363,'Parent testing 0817','09/02/2018 13:00:00',null,null,'09/02/2018 13:40:00',MoveNext
+Unchecked,XE180902Q038367Q2,'DQ Email Outlook','New Security Setup',Unassigned,New,null,Parent038367,'Parent testing 0817','09/02/2018 13:00:00',null,null,'09/02/2018 13:40:00',DoubleClick
+Unchecked,XE180901Q087101,Communicator,'New Registration',Unassigned,New,null,Parent087101,'Parent with Bond type','09/01/2018 15:00:00',null,null,null,MoveNext
+Unchecked,XE180901Q035228,Project,'Custody Request for Information',Unassigned,New,null,Parent035228,'Custody parent test01 CG','09/01/2018 05:00:00',null,null,null,MoveNext
+Unchecked,XE180901Q038344,'DQ Email Engage','Security Update',Unassigned,New,null,Parent038344,'Parent testing ','09/01/2018 01:00:00',null,null,null,MoveNext
+Unchecked,XE180831Q086850,'Walk Up','GPU Corporate Action Amendment',Unassigned,New,null,Parent086850,test,'09/01/2018 00:10:00',null,null,null,MoveNext
+Unchecked,XE180831Q087101,Communicator,'New Registration',Unassigned,New,null,Parent087101,'Parent with Bond type','08/31/2018 15:00:00',null,null,null,MoveNext
+Unchecked,XE180831Q033915,'DQ Email Engage','New Security Setup',Assigned,Pending,null,WC67823,AB-ETA,'08/31/2018 05:25:00',null,HL79200,null,DoubleClick
+Unchecked,XE180831Q035228,Project,'Custody Request for Information',Unassigned,New,null,Parent035228,'Custody parent test01 CG','08/31/2018 05:00:00',null,null,null,MoveNext
+Unchecked,XE180831Q086367,'DQ Email Outlook','Issuer Update',Unassigned,New,null,Parent086367,'Parent testing 0817','08/31/2018 01:00:00',null,null,'08/31/2018 01:40:00',MoveNext
+Unchecked,XE180831Q038344,'DQ Email Engage','Security Update',Unassigned,New,null,Parent038344,'Parent testing ','08/31/2018 01:00:00',null,null,null,MoveNext
+Unchecked,XE180830Q086850,'Walk Up','GPU Corporate Action Amendment',Unassigned,New,null,Parent086850,test,'08/31/2018 00:10:00',null,null,null,MoveNext
+Unchecked,XE180830Q086016,'DQ Email Engage','Security Update',Unassigned,New,null,Parent086016,'Is Convertible Bond IPO DATA REFRESH 6AM','08/30/2018 16:00:00',null,null,'08/31/2018 02:00:00',MoveNext
+Unchecked,XE180830Q087101,Communicator,'New Registration',Unassigned,New,null,Parent087101,'Parent with Bond type','08/30/2018 15:00:00',null,null,null,MoveNext
+Unchecked,XE180830Q086363,'DQ Email Outlook','Custody Broker Code Setup',Unassigned,New,null,Parent086363,'Parent testing 0817','08/30/2018 13:00:00',null,null,'08/30/2018 13:40:00',MoveNext
+Unchecked,XE180830Q038367,'DQ Email Outlook','New Security Setup',Unassigned,New,null,Parent038367,'Parent testing 0817','08/30/2018 13:00:00',null,null,'08/30/2018 13:40:00',DoubleClick
+Unchecked,XE180830Q086360,'DQ Email Outlook','Custody Pricing',Unassigned,New,null,Parent,'Parent testing 0817','08/30/2018 13:00:00',null,null,'08/30/2018 13:40:00',MoveNext
+Unchecked,XE180830Q033915,'DQ Email Engage','New Security Setup',Unassigned,New,null,WC67823,AB-ETA,'08/30/2018 05:25:00',null,null,null,DoubleClick
+Unchecked,XE180830Q035228,Project,'Custody Request for Information',Unassigned,New,null,Parent035228,'Custody parent test01 CG','08/30/2018 05:00:00',null,null,null,MoveNext
+Unchecked,XE180830Q086367,'DQ Email Outlook','Issuer Update',Unassigned,New,null,Parent086367,'Parent testing 0817','08/30/2018 01:00:00',null,null,'08/30/2018 01:40:00',MoveNext
+Unchecked,XE180830Q038344,'DQ Email Engage','Security Update',Unassigned,New,null,Parent038344,'Parent testing ','08/30/2018 01:00:00',null,null,null,MoveNext
+Unchecked,XE180829Q086850,'Walk Up','GPU Corporate Action Amendment',Unassigned,New,null,Parent086850,test,'08/30/2018 00:10:00',null,null,null,MoveNext
+Unchecked,XE180829Q086016,'DQ Email Engage','Security Update',Unassigned,New,null,Parent086016,'Is Convertible Bond IPO DATA REFRESH 6AM','08/29/2018 16:00:00',null,null,'08/30/2018 02:00:00',MoveNext
+Unchecked,XE180829Q087101,Communicator,'New Registration',Unassigned,New,null,Parent087101,'Parent with Bond type','08/29/2018 15:00:00',null,null,null,MoveNext
+Unchecked,XE180829Q086363,'DQ Email Outlook','Custody Broker Code Setup',Unassigned,New,null,Parent086363,'Parent testing 0817','08/29/2018 13:00:00',null,null,'08/29/2018 13:40:00',MoveNext
+Unchecked,XE180829Q038367,'DQ Email Outlook','New Security Setup',Unassigned,New,null,Parent038367,'Parent testing 0817','08/29/2018 13:00:00',null,null,'08/29/2018 13:40:00',DoubleClick
+Unchecked,XE180829Q086360,'DQ Email Outlook','Custody Pricing',Unassigned,New,null,Parent,'Parent testing 0817','08/29/2018 13:00:00',null,null,'08/29/2018 13:40:00',MoveNext
+Unchecked,XE180829Q033915,'DQ Email Engage','New Security Setup',Unassigned,New,null,WC67823,AB-ETA,'08/29/2018 05:25:00',null,null,null,DoubleClick
+Unchecked,XE180829Q035228,Project,'Custody Request for Information',Unassigned,New,null,Parent035228,'Custody parent test01 CG','08/29/2018 05:00:00',null,null,null,MoveNext
+Unchecked,XE180829Q034316,'DQ Email Engage','Security Update',Assigned,'PreCheck Required',null,CG81319,'Parent CG','08/29/2018 04:00:00',null,CG81319,'08/29/2018 05:00:00',MoveNext
+Unchecked,XE180829Q086367,'DQ Email Outlook','Issuer Update',Unassigned,New,null,Parent086367,'Parent testing 0817','08/29/2018 01:00:00',null,null,'08/29/2018 01:40:00',MoveNext
+Unchecked,XE180829Q038344,'DQ Email Engage','Security Update',Unassigned,New,null,Parent038344,'Parent testing ','08/29/2018 01:00:00',null,null,null,MoveNext
+Unchecked,XE180828Q086850,'Walk Up','GPU Corporate Action Amendment',Unassigned,New,null,Parent086850,test,'08/29/2018 00:10:00',null,null,null,MoveNext
+Unchecked,XE180828Q086016,'DQ Email Engage','Security Update',Assigned,Pending,null,Parent086016,'Is Convertible Bond IPO DATA REFRESH 6AM','08/28/2018 16:00:00',null,AAI1553,'08/29/2018 02:00:00',MoveNext
+Unchecked,XE180828Q087101,Communicator,'New Registration',Unassigned,New,null,Parent087101,'Parent with Bond type','08/28/2018 15:00:00',null,null,null,MoveNext
+Unchecked,XE180828Q086363,'DQ Email Outlook','Custody Broker Code Setup',Unassigned,New,null,Parent086363,'Parent testing 0817','08/28/2018 13:00:00',null,null,'08/28/2018 13:40:00',MoveNext
+Unchecked,XE180828Q038367,'DQ Email Outlook','New Security Setup',Unassigned,New,null,Parent038367,'Parent testing 0817','08/28/2018 13:00:00',null,null,'08/28/2018 13:40:00',DoubleClick
+Unchecked,XE180828Q086360,'DQ Email Outlook','Custody Pricing',Unassigned,New,null,Parent,'Parent testing 0817','08/28/2018 13:00:00',null,null,'08/28/2018 13:40:00',MoveNext
+Unchecked,XE180828Q033915,'DQ Email Engage','New Security Setup',Unassigned,New,null,WC67823,AB-ETA,'08/28/2018 05:25:00',null,null,null,DoubleClick
+Unchecked,XE180828Q035228,Project,'Custody Request for Information',Unassigned,New,null,Parent035228,'Custody parent test01 CG','08/28/2018 05:00:00',null,null,null,MoveNext
+Unchecked,XE180828Q086367,'DQ Email Outlook','Issuer Update',Unassigned,New,null,Parent086367,'Parent testing 0817','08/28/2018 01:00:00',null,null,'08/28/2018 01:40:00',MoveNext
+Unchecked,XE180828Q038344,'DQ Email Engage','Security Update',Unassigned,New,null,Parent038344,'Parent testing ','08/28/2018 01:00:00',null,null,null,MoveNext
+Unchecked,XE180827Q086850,'Walk Up','GPU Corporate Action Amendment',Unassigned,New,null,Parent086850,test,'08/28/2018 00:10:00',null,null,null,MoveNext
+Unchecked,XE180827Q086016,'DQ Email Engage','Security Update',Unassigned,New,null,Parent086016,'Is Convertible Bond IPO DATA REFRESH 6AM','08/27/2018 16:00:00',null,null,'08/28/2018 02:00:00',MoveNext
+Unchecked,XE180827Q087101,Communicator,'New Registration',Unassigned,New,null,Parent087101,'Parent with Bond type','08/27/2018 15:00:00',null,null,null,MoveNext
+Unchecked,XE180827Q086363,'DQ Email Outlook','Custody Broker Code Setup',Unassigned,New,null,Parent086363,'Parent testing 0817','08/27/2018 13:00:00',null,null,'08/27/2018 13:40:00',MoveNext
+Unchecked,XE180827Q038367,'DQ Email Outlook','New Security Setup',Unassigned,New,null,Parent038367,'Parent testing 0817','08/27/2018 13:00:00',null,null,'08/27/2018 13:40:00',DoubleClick
+Unchecked,XE180827Q086360,'DQ Email Outlook','Custody Pricing',Unassigned,New,null,Parent,'Parent testing 0817','08/27/2018 13:00:00',null,null,'08/27/2018 13:40:00',MoveNext
+Unchecked,XE180827Q033915,'DQ Email Engage','New Security Setup',Unassigned,Updated,null,WC67823,AB-ETA,'08/27/2018 05:25:00',null,null,null,DoubleClick
+Unchecked,XE180827Q035228,Project,'Custody Request for Information',Unassigned,New,null,Parent035228,'Custody parent test01 CG','08/27/2018 05:00:00',null,null,null,MoveNext
+Unchecked,XE180827Q086367,'DQ Email Outlook','Issuer Update',Unassigned,New,null,Parent086367,'Parent testing 0817','08/27/2018 01:00:00',null,null,'08/27/2018 01:40:00',MoveNext
+Unchecked,XE180827Q038344,'DQ Email Engage','Security Update',Unassigned,New,null,Parent038344,'Parent testing ','08/27/2018 01:00:00',null,null,null,MoveNext
+Unchecked,XE180826Q086850,'Walk Up','GPU Corporate Action Amendment',Unassigned,New,null,Parent086850,test,'08/27/2018 00:10:00',null,null,null,MoveNext
+Unchecked,XE180826Q086016,'DQ Email Engage','Security Update',Unassigned,New,null,Parent086016,'Is Convertible Bond IPO DATA REFRESH 6AM','08/26/2018 16:00:00',null,null,'08/27/2018 02:00:00',MoveNext
+Unchecked,XE180826Q087101,Communicator,'New Registration',Unassigned,New,null,Parent087101,'Parent with Bond type','08/26/2018 15:00:00',null,null,null,MoveNext
+Unchecked,XE180826Q038345,Communicator,'Issuer Update',Unassigned,New,null,Parent038345,'Parent testing 0816','08/26/2018 13:00:00',null,null,null,MoveNext
+Unchecked,XE180826Q086363,'DQ Email Outlook','Custody Broker Code Setup',Unassigned,New,null,Parent086363,'Parent testing 0817','08/26/2018 13:00:00',null,null,'08/26/2018 13:40:00',MoveNext
+Unchecked,XE180826Q038367,'DQ Email Outlook','New Security Setup',Unassigned,New,null,Parent038367,'Parent testing 0817','08/26/2018 13:00:00',null,null,'08/26/2018 13:40:00',DoubleClick
+Unchecked,XE180826Q086360,'DQ Email Outlook','Custody Pricing',Unassigned,New,null,Parent,'Parent testing 0817','08/26/2018 13:00:00',null,null,'08/26/2018 13:40:00',MoveNext
+Unchecked,XE180825Q087101,Communicator,'New Registration',Unassigned,New,null,Parent087101,'Parent with Bond type','08/25/2018 15:00:00',null,null,null,MoveNext
+Unchecked,XE180825Q035228,Project,'Custody Request for Information',Unassigned,New,null,Parent035228,'Custody parent test01 CG','08/25/2018 05:00:00',null,null,null,MoveNext
+Unchecked,XE180825Q038344,'DQ Email Engage','Security Update',Unassigned,New,null,Parent038344,'Parent testing ','08/25/2018 01:00:00',null,null,null,MoveNext
+Unchecked,XE180824Q086850,'Walk Up','GPU Corporate Action Amendment',Unassigned,New,null,Parent086850,test,'08/25/2018 00:10:00',null,null,null,MoveNext
+Unchecked,XE180824Q087101,Communicator,'New Registration',Unassigned,New,null,Parent087101,'Parent with Bond type','08/24/2018 15:00:00',null,null,null,MoveNext
+Unchecked,XE180824Q033915,'DQ Email Engage','New Security Setup',Unassigned,New,null,WC67823,AB-ETA,'08/24/2018 05:25:00',null,null,null,DoubleClick
+Unchecked,XE180824Q035228,Project,'Custody Request for Information',Unassigned,New,null,Parent035228,'Custody parent test01 CG','08/24/2018 05:00:00',null,null,null,MoveNext
+Unchecked,XE180824Q038344,'DQ Email Engage','Security Update',Unassigned,New,null,Parent038344,'Parent testing ','08/24/2018 01:00:00',null,null,null,MoveNext
+Unchecked,XE180824Q086367,'DQ Email Outlook','Issuer Update',Unassigned,New,null,Parent086367,'Parent testing 0817','08/24/2018 01:00:00',null,null,'08/24/2018 01:40:00',MoveNext
+Unchecked,XE180823Q086850,'Walk Up','GPU Corporate Action Amendment',Unassigned,New,null,Parent086850,test,'08/24/2018 00:10:00',null,null,null,MoveNext
+Unchecked,XE180823Q086016,'DQ Email Engage','Security Update',Unassigned,New,null,Parent086016,'Is Convertible Bond IPO DATA REFRESH 6AM','08/23/2018 16:00:00',null,null,'08/24/2018 02:00:00',MoveNext
+Unchecked,XE180823Q087101,Communicator,'New Registration',Unassigned,New,null,Parent087101,'Parent with Bond type','08/23/2018 15:00:00',null,null,null,MoveNext
+Unchecked,XE180823Q086363,'DQ Email Outlook','Custody Broker Code Setup',Unassigned,New,null,Parent086363,'Parent testing 0817','08/23/2018 13:00:00',null,null,'08/23/2018 13:40:00',MoveNext
+Unchecked,XE180823Q038367,'DQ Email Outlook','New Security Setup',Unassigned,New,null,Parent038367,'Parent testing 0817','08/23/2018 13:00:00',null,null,'08/23/2018 13:40:00',DoubleClick
+Unchecked,XE180823Q086360,'DQ Email Outlook','Custody Pricing',Unassigned,New,null,Parent,'Parent testing 0817','08/23/2018 13:00:00',null,null,'08/23/2018 13:40:00',MoveNext
+Unchecked,XE180823Q033915,'DQ Email Engage','New Security Setup',Assigned,Pending,null,WC67823,AB-ETA,'08/23/2018 05:25:00',null,WC67823,null,DoubleClick
+Unchecked,XE180823Q035228,Project,'Custody Request for Information',Unassigned,New,null,Parent035228,'Custody parent test01 CG','08/23/2018 05:00:00',null,null,null,MoveNext
+Unchecked,XE180823Q038344,'DQ Email Engage','Security Update',Unassigned,New,null,Parent038344,'Parent testing ','08/23/2018 01:00:00',null,null,null,MoveNext
+Unchecked,XE180823Q086367,'DQ Email Outlook','Issuer Update',Unassigned,New,null,Parent086367,'Parent testing 0817','08/23/2018 01:00:00',null,null,'08/23/2018 01:40:00',MoveNext
+Unchecked,XE180822Q086850,'Walk Up','GPU Corporate Action Amendment',Unassigned,New,null,Parent086850,test,'08/23/2018 00:10:00',null,null,null,MoveNext
+Unchecked,XE180822Q086016,'DQ Email Engage','Security Update',Unassigned,New,null,Parent086016,'Is Convertible Bond IPO DATA REFRESH 6AM','08/22/2018 16:00:00',null,null,'08/23/2018 02:00:00',MoveNext
+Unchecked,XE180822Q087101,Communicator,'New Registration',Unassigned,New,null,Parent087101,'Parent with Bond type','08/22/2018 15:00:00',null,null,null,MoveNext
+Unchecked,XE180822Q086363,'DQ Email Outlook','Custody Broker Code Setup',Unassigned,New,null,Parent086363,'Parent testing 0817','08/22/2018 13:00:00',null,null,'08/22/2018 13:40:00',MoveNext
+Unchecked,XE180822Q038367,'DQ Email Outlook','New Security Setup',Unassigned,New,null,Parent038367,'Parent testing 0817','08/22/2018 13:00:00',null,null,'08/22/2018 13:40:00',DoubleClick
+Unchecked,XE180822Q086360,'DQ Email Outlook','Custody Pricing',Unassigned,New,null,Parent,'Parent testing 0817','08/22/2018 13:00:00',null,null,'08/22/2018 13:40:00',MoveNext
+Unchecked,XE180822Q033915,'DQ Email Engage','New Security Setup',Unassigned,Updated,null,WC67823,AB-ETA,'08/22/2018 05:25:00',null,null,null,DoubleClick
+Unchecked,XE180822Q035228,Project,'Custody Request for Information',Unassigned,New,null,Parent035228,'Custody parent test01 CG','08/22/2018 05:00:00',null,null,null,MoveNext
+Unchecked,XE180822Q034316,'DQ Email Engage','Security Update',Unassigned,New,null,CG81319,'Parent CG','08/22/2018 04:00:00',null,null,'08/22/2018 05:00:00',MoveNext
+Unchecked,XE180822Q038344,'DQ Email Engage','Security Update',Assigned,Pending,null,Parent038344,'Parent testing ','08/22/2018 01:00:00',null,TY87864,null,MoveNext
+Unchecked,XE180822Q086367,'DQ Email Outlook','Issuer Update',Unassigned,New,null,Parent086367,'Parent testing 0817','08/22/2018 01:00:00',null,null,'08/22/2018 01:40:00',MoveNext
+Unchecked,XE180821Q086850,'Walk Up','GPU Corporate Action Amendment',Unassigned,New,null,Parent086850,test,'08/22/2018 00:10:00',null,null,null,MoveNext
+Unchecked,XE180821Q086016,'DQ Email Engage','Security Update',Unassigned,New,null,Parent086016,'Is Convertible Bond IPO DATA REFRESH 6AM','08/21/2018 16:00:00',null,null,'08/22/2018 02:00:00',MoveNext
+Unchecked,XE180821Q087101,Communicator,'New Registration',Unassigned,New,null,Parent087101,'Parent with Bond type','08/21/2018 15:00:00',null,null,null,MoveNext
+Unchecked,XE180821Q086363,'DQ Email Outlook','Custody Broker Code Setup',Unassigned,New,null,Parent086363,'Parent testing 0817','08/21/2018 13:00:00',null,null,'08/21/2018 13:40:00',MoveNext
+Unchecked,XE180821Q038367,'DQ Email Outlook','New Security Setup',Unassigned,New,null,Parent038367,'Parent testing 0817','08/21/2018 13:00:00',null,null,'08/21/2018 13:40:00',DoubleClick
+Unchecked,XE180821Q086360,'DQ Email Outlook','Custody Pricing',Unassigned,New,null,Parent,'Parent testing 0817','08/21/2018 13:00:00',null,null,'08/21/2018 13:40:00',MoveNext
+Unchecked,XE180821Q033915,'DQ Email Engage','New Security Setup',Unassigned,Updated,null,WC67823,AB-ETA,'08/21/2018 05:25:00',null,null,null,DoubleClick
+Unchecked,XE180821Q035228,Project,'Custody Request for Information',Unassigned,New,null,Parent035228,'Custody parent test01 CG','08/21/2018 05:00:00',null,null,null,MoveNext
